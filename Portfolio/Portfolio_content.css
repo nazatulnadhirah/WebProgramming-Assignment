@@ -1,0 +1,458 @@
+
+/* ===========================
+     All pages
+============================== */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: Pink;
+    color: Green;
+    padding: 30px;
+    text-align: center;
+	
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+	
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+	font-size: 20px;
+    color: white;
+    text-decoration: none;
+	transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+	color: blue;
+}
+
+.wording {
+	color: DarkViolet;
+	font-weight: normal;
+}
+
+main {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	background-image: url('flowers.jpg');
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+	background-color: lightblue;
+}
+
+
+.project-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 800px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-btn {
+  background-color: DarkViolet;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: Indigo;
+}
+
+.project-info {
+  display: none;
+  font-size: 18px;
+  color: #333;
+  margin-top: 10px;
+}
+
+
+footer {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0; 
+    width: 98%;
+} 	
+
+
+footer a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: blue;
+}
+
+.github-container {
+    margin-left: 20px; 
+}
+
+/* ===========================
+     Home page
+============================== */
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 40px;
+    align-items: start;
+    padding: 20px;
+	justify-items: center;
+}
+	
+.home-text-box {
+	font-size: clamp(14px, 2.5vw, 24px);
+	padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+	font-size: 1.1rem;
+   
+}
+
+ .image-box {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+	padding: 10px;
+	background-color: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+	width: fit-content;
+
+}
+
+.image-box img {
+    border-radius: 5px;
+	width: 230px;
+	display: block;
+
+}
+
+.image-credit {
+    color: gray;
+	text-align: center;
+    margin-top: 10px;
+	font-size: clamp(8px, 2.5vw, 10px);
+}
+
+
+section {
+    margin-bottom: 20px;	
+}
+
+
+
+
+/* ===========================
+     About page
+============================== */
+
+
+.layout-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; 
+  padding: 20px; 
+  min-height: 70vh;
+}
+
+.text-container {
+    display: flex;
+	justify-content: center;
+	flex-direction: column;
+    gap: 10px; 
+}
+
+.about-text-box {
+	font-size: clamp(12px, 2.5vw, 24px);
+	font-size: 1.1rem;
+	max-width: 400px;
+    border: 1px solid black;
+    padding: 10px;
+	margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+	
+}
+
+.about-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.right-column-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  min-width: 280px;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.skills-box {
+  width: 100%;
+  max-width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  border: 1px solid black;
+  margin-top:20px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  background-color: #e8e8ff;
+  margin: 8px 0;
+  padding: 10px 15px;
+  border-left: 5px solid DarkViolet;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.skills-list i {
+  margin-right: 10px;
+  color: DarkViolet;
+}
+
+.enhanced-about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.styled-photo {
+  
+  max-width: 100%;
+  height: auto;
+  border: 1px solid DarkViolet;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ===========================
+     Projects page
+============================== */
+
+.project-info a {
+    display: inline-block; /* Keeps it part of the text */
+    margin-top: 10px; /* Adds spacing but doesn’t force separation */
+}
+
+
+.project-text-box {
+    margin-left: 100px; /* Move the box to the right */
+    margin-right: 50px; /* Adjust spacing */
+	
+	font-size: clamp(14px, 2.5vw, 24px);
+	padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+	font-size: 1.1rem;
+	max-width: 400px;
+	margin-bottom: 5px;
+
+
+}
+
+.two-column-background {
+	margin-right:20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+	align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+	align-items:center;
+    gap: 20px; /* Ensure even spacing */
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .layout-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+     nav ul {
+		flex-direction: column; 
+		align-items: center;
+	}
+	
+	#box_text {
+        width: auto; /* Allows flexibility */
+        margin: 20px auto; 
+    }
+	
+	.two-column-background {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center them */
+        justify-content: center;
+        text-align: center;
+    }
+	
+	 .text-box {
+        width: 90%;
+        margin: 10px auto; /* Centers the box */
+        text-align: center;
+    }
+
+}
+
+
+/* ===========================
+     Contact Page
+=========================== */
+
+.contact-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.contact-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #3367d6;
+}
+
+/* ===========================
+     Thank You Page
+=========================== */
+
+.thankyou-container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 30px;
+  border: 2px solid #4CAF50;
+  border-radius: 12px;
+  background-color: #f0fdf4;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.thankyou-container h2 {
+  font-size: 28px;
+  color: #4CAF50;
+  margin-bottom: 15px;
+}
+
+.thankyou-container p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.thankyou-container a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.thankyou-container a:hover {
+  background-color: #388E3C;
+}
+
+

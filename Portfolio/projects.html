@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to my personal portfolio website, 
+   where I showcase my projects, creativity, and passion for learning." />
+  <link rel="stylesheet" href="Portfolio_content.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <title>Projects | My Website</title>
+  
+</head>
+    <body>
+      <header>
+         <b><h1>MY PROJECTS</h1></b>
+            <nav>
+              <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="aboutMe.html">About Me</a></li>
+                 <li><a href="projects.html">Projects</a></li>
+				 <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
+      </header>
+
+
+<main>
+  <div class="two-column-background">
+    <div class="column left-column">
+      
+	  <!--Project 1 -->
+      <div class="project-text-box">
+        <h2 class="wording">Human-Computer Interaction Blog Project</h2>
+        
+		<button onclick="toggleProjectDetails()" class="toggle-btn">Show/Hide Details</button>
+
+        <p id="project-details" class="project-info">
+          This blog was developed as part of our Human-Computer Interaction (HCI) course. 
+		  Its purpose is to document our insights, reflections, and progress throughout the project.
+          We focuses on applying key HCI principles like user-friendly design, readability, 
+		  accessible navigation, and responsive layout.
+		  
+          <a href="https://nobodybutyou2.wordpress.com" target="_blank">Visit My Blog</a>.</p>
+        
+      </div>
+	  
+	  <!--Project 2 -->
+      <div class="project-text-box">
+        <h2 class="wording">Database Project</h2>
+		
+        <button onclick="toggleProjectDetails3()" class="toggle-btn">Show/Hide Details</button>
+		
+        <p id="project-details-3" class="project-info">
+          The project that we created is Online Library Management System (OLMS) 
+		  by using MySQL.This project allow user to register, search book, 
+		  and borrow them online without need to visit a physical library. The system keeps
+		  track of book availability, borrowing dates, and returns, making everything organized.
+		  It also sends reminders for due dates and manages fines for late returns.
+		  
+		  <a href="Database project.pdf" target="_blank">Visit My File</a>
+
+        </p>
+      </div>
+    </div>
+
+
+    <div class="column right-column">
+	
+      <!--Project 3 -->
+      <div class="project-text-box">
+        <h2 class="wording">Network Communication Project</h2>
+		
+        <button onclick="toggleProjectDetails2()" class="toggle-btn">Show/Hide Details</button>
+		
+        <p id="project-details-2" class="project-info">
+			  This project involves designing a structured wiring plan for a large building, 
+			  such as a faculty to ensure efficient data transmission, reliable network connectivity, 
+			  and well-maintained communication system. We analyze key factors like cable management, network security, 
+			  and scalability to ensure high-speed internet across multiple floors. <br>
+			  
+		  <a href="Netcom project.pdf" target="_blank">Visit My File</a></p>
+          
+      
+	  </div>
+	  
+	  <!--Project 4 -->
+      <div class="project-text-box">
+        <h2 class="wording">System Analysis Design Project</h2>
+		
+        <button onclick="toggleProjectDetails4()" class="toggle-btn">Show/Hide Details</button>
+		
+        <p id="project-details-4" class="project-info">
+          This project is an academic task management system designed for postgraduate students and lecturers.
+		  to streamline the research and publication process. Built using figma, it helps users to update 
+		  their thesis progress, manage tasks, set deadlines and collaborate effciently. By integrate features 
+		  like real-time tracking, reminders, and document sharing, it enhances productivity and 
+		  simplifies research management.<br>      
+        
+		  <a href="Secd project.pdf" target="_blank">Visit My File</a></p>
+				
+      </div>
+	  
+    </div>
+  </div>
+</main>
+
+
+   <footer>
+    <p>
+        <em>&copy; 2025 My Website. Made with passion. Built creativity.</em>
+        <span class="github-container">
+            <a href="https://github.com/nazatulnadhirah" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </span>
+    </p>
+   </footer>
+  
+  <script src="script.js"> </script>
+  
+</body>
+</html>
